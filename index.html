@@ -228,18 +228,6 @@
 			//鼠标悬停图片时图片不轮播
 			pause:'hover',
 		});
-		
-//		//图片轮播器左右箭头垂直居中
-//		$(function(){
-//			$('.carousel-control').css('line-height',$('.carousel-inner img').height()+'px');
-//			$(window).resize(function(){
-//				var $height = $('.carousel-inner img').eq(0).height()||
-//							  $('.carousel-inner img').eq(1).height()||
-//							  $('.carousel-inner img').eq(2).height();
-//				$('.carousel-control').css('line-height',$height+'px');
-//			});
-//		});
-//		中间文字居中
 		window.onload=function(){
 			$('.text').eq(0).css('margin-top',($('.auto').eq(0).height()-$('.text').eq(0).height())/2+'px');
 		 $(window).resize(function(){
@@ -257,6 +245,6 @@
 		 $(window).resize(function(){
 		 	$('.text').eq(3).css('margin-top',($('.auto').eq(3).height()-$('.text').eq(3).height())/2+'px');
 		 });
-		}
+		};
 	</script>
 </html>
